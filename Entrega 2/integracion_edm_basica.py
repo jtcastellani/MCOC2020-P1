@@ -39,7 +39,7 @@ def satelite (z, t):
     zp[3:6] = (-G*Mtierra)*z[0:3]/Rtierra**3 - R@(R_p_p@z[0:3] + 2*R_p@z[3:6])
     
     return zp
-    
+
 # Posicion inicial
 x = Rtierra + 700*1000
 y = 0
@@ -54,10 +54,7 @@ vy = 8020
 #Vector estado
 z0 =  sp.array([x,y,z,vx,vy,vz])
 
-#plt.figure()
 
-
-#Vector tiempo
 t = sp.linspace(0,10000,1001)
 
 
