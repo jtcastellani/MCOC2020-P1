@@ -54,7 +54,7 @@ z_euler10 = eulerint(zp, z0, t, 10)
 z_euler100 = eulerint(zp, z0, t, 100)
 
 figure(1)
-plot(t, z_real, "--",color = "black", linewidth = 2,label="real")
+plot(t, z_real,color = "black", linewidth = 2,label="real")
 plot(t, z_odeint[:,0],"b",label="odeint")
 plot(t,z_euler1[:,0], "g:",label="eulerint N=1")
 plot(t,z_euler10[:,0], ":",color = "red", label="eulerint N=10")
