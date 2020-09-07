@@ -24,7 +24,7 @@ Eulerint: 0,8
 Luego de 20 minutos y 1.500 subdivisiones se logró un error de 10%, por lo que no se pudo lograr al pocentaje de error deseado, ya que al minimizar el error aumenta el tiempo de ejecución.  
 * P4. (5pt) Implemente las correcciones J2 y J3. Repita los gráficos de arriba para su caso particular. ¿Cuánta deriva incurre al agregar las correcciones J2 y J3? ¿Cuanto se demora su código en correr?  
 ![P4XYZL2L3](https://raw.githubusercontent.com/jtcastellani/MCOC2020-P1/master/Entrega%205/GraficoP4J2J3.png)
-![P4OEulerJ2J3]https://raw.githubusercontent.com/jtcastellani/MCOC2020-P1/master/Entrega%205/Grafico4EulerintJ2J3.png)
-![P4OdeintJ2J3]https://raw.githubusercontent.com/jtcastellani/MCOC2020-P1/master/Entrega%205/Grafico4OdeintJ2J3.png)
-![P4VsJ2J3]https://raw.githubusercontent.com/jtcastellani/MCOC2020-P1/master/Entrega%205/GraficoP4DifEuleyOdeintJ2J3.png)
+![P4OEulerJ2J3](https://raw.githubusercontent.com/jtcastellani/MCOC2020-P1/master/Entrega%205/Grafico4EulerintJ2J3.png)
+![P4OdeintJ2J3](https://raw.githubusercontent.com/jtcastellani/MCOC2020-P1/master/Entrega%205/Grafico4OdeintJ2J3.png)
+![P4VsJ2J3](https://raw.githubusercontent.com/jtcastellani/MCOC2020-P1/master/Entrega%205/GraficoP4DifEuleyOdeintJ2J3.png)
 El código demora 4,34 s
