@@ -107,15 +107,9 @@ def satelite (z, t):
     FJ2[1] = FJ2[1] * (6*z2 - 1.5*rflat)
     FJ2[2] = FJ2[2] * (3*z2 - 4.5*rflat)
     
-    FJ3 = np.zeros(3)
-    FJ3[0] = J3 * xstill[0]*xstill[2]/r**9 * (10*z2 - 7.5*rflat)
-    FJ3[1] = J3 * xstill[1]*xstill[2]/r**9 * (10*z2 - 7.5*rflat)
-    FJ3[2] = J3                      /r**9 * ( 4*z2 *(z2 - 3*rflat) + 1.5*rflat**2) 
-    
-    
     zp[0:3] = xp
 
-    zp[3:6] = R.T@(Fg + FJ2 + FJ3 - (2 * (R_p@xp) + (R_p_p@x))) 
+    zp[3:6] = R.T@(Fg + FJ2 - (2 * (R_p@xp) + (R_p_p@x))) 
    
     return zp
 
