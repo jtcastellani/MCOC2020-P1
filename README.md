@@ -28,3 +28,5 @@ Luego de 20 minutos y 1.500 subdivisiones se logró un error de 10%, por lo que 
 ![P4OdeintJ2J3](https://raw.githubusercontent.com/jtcastellani/MCOC2020-P1/master/Entrega%205/Grafico4OdeintJ2J3.png)
 ![P4VsJ2J3](https://raw.githubusercontent.com/jtcastellani/MCOC2020-P1/master/Entrega%205/GraficoP4DifEuleyOdeintJ2J3.png)
 El código demora 4,34 s
+# Entrega Final  
+Luego de aplicar terminos hasta el J7, en donde aumentó la deriba 5 km, por lo que removiendo terminos se dejó solo hasta el J2, ya que las mejoras no eran significativas y aumentaban el tiempo de ejecución. Además se agregaron más decimales a la masa de la tierra y al rádio de esta.
